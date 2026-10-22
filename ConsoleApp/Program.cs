@@ -124,8 +124,10 @@ while (true)
             var daid = Convert.ToInt32(Console.ReadLine());
             authorRepo.DeleteAuthor(daid);
             break;
+            
         case "0":
             System.Console.WriteLine("Exiting ...");
             return;
+
     }
 }

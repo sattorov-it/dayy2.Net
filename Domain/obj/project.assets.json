@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vali\\Desktop\\day2.Net\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Vali\\Desktop\\Ado.Net\\day2Ado.Net\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\Users\\Vali\\Desktop\\day2.Net\\Domain\\Domain.csproj",
+      "projectPath": "C:\\Users\\Vali\\Desktop\\Ado.Net\\day2Ado.Net\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\Vali\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vali\\Desktop\\day2.Net\\Domain\\obj\\",
+      "outputPath": "C:\\Users\\Vali\\Desktop\\Ado.Net\\day2Ado.Net\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Vali\\AppData\\Roaming\\NuGet\\NuGet.Config"

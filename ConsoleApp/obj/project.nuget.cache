@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3JZzUa+dP6o=",
+  "dgSpecHash": "CcySOKVa0jU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vali\\Desktop\\day2.Net\\ConsoleApp\\ConsoleApp.csproj",
+  "projectFilePath": "C:\\Users\\Vali\\Desktop\\Ado.Net\\day2Ado.Net\\ConsoleApp\\ConsoleApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vali\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
     "C:\\Users\\Vali\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.0\\microsoft.extensions.logging.abstractions.10.0.0.nupkg.sha512",

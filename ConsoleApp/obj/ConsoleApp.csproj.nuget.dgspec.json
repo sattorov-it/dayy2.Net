@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vali\\Desktop\\day2.Net\\ConsoleApp\\ConsoleApp.csproj": {}
+    "C:\\Users\\Vali\\Desktop\\Ado.Net\\day2Ado.Net\\ConsoleApp\\ConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vali\\Desktop\\day2.Net\\ConsoleApp\\ConsoleApp.csproj": {
+    "C:\\Users\\Vali\\Desktop\\Ado.Net\\day2Ado.Net\\ConsoleApp\\ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vali\\Desktop\\day2.Net\\ConsoleApp\\ConsoleApp.csproj",
+        "projectUniqueName": "C:\\Users\\Vali\\Desktop\\Ado.Net\\day2Ado.Net\\ConsoleApp\\ConsoleApp.csproj",
         "projectName": "ConsoleApp",
-        "projectPath": "C:\\Users\\Vali\\Desktop\\day2.Net\\ConsoleApp\\ConsoleApp.csproj",
+        "projectPath": "C:\\Users\\Vali\\Desktop\\Ado.Net\\day2Ado.Net\\ConsoleApp\\ConsoleApp.csproj",
         "packagesPath": "C:\\Users\\Vali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vali\\Desktop\\day2.Net\\ConsoleApp\\obj\\",
+        "outputPath": "C:\\Users\\Vali\\Desktop\\Ado.Net\\day2Ado.Net\\ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vali\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -27,11 +27,11 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Vali\\Desktop\\day2.Net\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Vali\\Desktop\\day2.Net\\Domain\\Domain.csproj"
+              "C:\\Users\\Vali\\Desktop\\Ado.Net\\day2Ado.Net\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Vali\\Desktop\\Ado.Net\\day2Ado.Net\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\Vali\\Desktop\\day2.Net\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Vali\\Desktop\\day2.Net\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\Vali\\Desktop\\Ado.Net\\day2Ado.Net\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Vali\\Desktop\\Ado.Net\\day2Ado.Net\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -352,14 +352,14 @@
         }
       }
     },
-    "C:\\Users\\Vali\\Desktop\\day2.Net\\Domain\\Domain.csproj": {
+    "C:\\Users\\Vali\\Desktop\\Ado.Net\\day2Ado.Net\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vali\\Desktop\\day2.Net\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Vali\\Desktop\\Ado.Net\\day2Ado.Net\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Vali\\Desktop\\day2.Net\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Vali\\Desktop\\Ado.Net\\day2Ado.Net\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Vali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vali\\Desktop\\day2.Net\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Vali\\Desktop\\Ado.Net\\day2Ado.Net\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vali\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -687,14 +687,14 @@
         }
       }
     },
-    "C:\\Users\\Vali\\Desktop\\day2.Net\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\Vali\\Desktop\\Ado.Net\\day2Ado.Net\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vali\\Desktop\\day2.Net\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Vali\\Desktop\\Ado.Net\\day2Ado.Net\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\Vali\\Desktop\\day2.Net\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Vali\\Desktop\\Ado.Net\\day2Ado.Net\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Vali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vali\\Desktop\\day2.Net\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Vali\\Desktop\\Ado.Net\\day2Ado.Net\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vali\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -710,8 +710,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Vali\\Desktop\\day2.Net\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Vali\\Desktop\\day2.Net\\Domain\\Domain.csproj"
+              "C:\\Users\\Vali\\Desktop\\Ado.Net\\day2Ado.Net\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Vali\\Desktop\\Ado.Net\\day2Ado.Net\\Domain\\Domain.csproj"
               }
             }
           }
