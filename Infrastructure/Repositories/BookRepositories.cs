@@ -85,6 +85,8 @@ public class BookRepository : IBookRepository
         cmd.Parameters.AddWithValue("title", book.Title);
         cmd.Parameters.AddWithValue("publishedyear", book.PublishedYear);
         cmd.Parameters.AddWithValue("totalcopies", book.TotalCopies);
+        cmd.Parameters.AddWithValue("authorid", book.AuthorId);
+        cmd.Parameters.AddWithValue("genreid", book.GenreId);
         cmd.Parameters.AddWithValue("id", book.Id);
         cmd.ExecuteNonQuery();
         System.Console.WriteLine("Updated!");
@@ -94,15 +96,15 @@ public class BookRepository : IBookRepository
     {
         using var conn = Database.Connection();
         conn.Open();
-        var query = @"select b.id, b.title, b.puplishedyear, b.totalcopies
-        from books b 
-        join author a on b.author = a.id
-        where a,fullname = @fullname";
+        var query = @"select b.id, b.title, b.publishedyear, b.totalcopies
+        from books b
+        join authors a on b.authorid = a.id
+        where a.fullname = @fullname";
         var cmd = new NpgsqlCommand(query, conn);
         cmd.Parameters.AddWithValue("fullname", fullname);
         var reader = cmd.ExecuteReader();
         List<Book> books = [];
-        while (data.Read())
+        while (reader.Read())
         {
             var book = new Book();
             book.Id = reader.GetInt32(0);
@@ -118,9 +120,9 @@ public class BookRepository : IBookRepository
     {
         using var conn = Database.Connection();
         conn.Open();
-        var query = @"select b.id, b.title,b.puplishedyear,b.totalcopies
+        var query = @"select b.id, b.title, b.publishedyear, b.totalcopies
         from books b
-        join genre g on b.genreid = g.id
+        join genres g on b.genreid = g.id
         where g.name = @name";
         var cmd = new NpgsqlCommand(query, conn);
         cmd.Parameters.AddWithValue("name", name);

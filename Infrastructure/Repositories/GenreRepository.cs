@@ -72,12 +72,7 @@ public class GenreRepository : IGenreRepository
         var cmd = new NpgsqlCommand(query, conn);
         cmd.Parameters.AddWithValue("name", genre.Name);
         cmd.Parameters.AddWithValue("id", genre.Id);
-        var reader = cmd.ExecuteReader();
-        Genre genre1 = new();
-        while(reader.Read())
-        {
-            genre1.Id = genre.Id;
-            genre1.Name = genre.Name;
-        }
+        cmd.ExecuteNonQuery();
+        System.Console.WriteLine("Updated!");
     }
 }
