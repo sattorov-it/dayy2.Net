@@ -45,3 +45,6 @@ C:\Users\Vali\Desktop\Ado.Net\day2Ado.Net\ConsoleApp\obj\Debug\net10.0\refint\Co
 C:\Users\Vali\Desktop\Ado.Net\day2Ado.Net\ConsoleApp\obj\Debug\net10.0\ConsoleApp.pdb
 C:\Users\Vali\Desktop\Ado.Net\day2Ado.Net\ConsoleApp\obj\Debug\net10.0\ConsoleApp.genruntimeconfig.cache
 C:\Users\Vali\Desktop\Ado.Net\day2Ado.Net\ConsoleApp\obj\Debug\net10.0\ref\ConsoleApp.dll
+C:\Users\Vali\Desktop\Ado.Net\Lesson2Ado.Net\ConsoleApp\obj\Debug\net10.0\ConsoleApp.dll
+C:\Users\Vali\Desktop\Ado.Net\Lesson2Ado.Net\ConsoleApp\obj\Debug\net10.0\refint\ConsoleApp.dll
+C:\Users\Vali\Desktop\Ado.Net\Lesson2Ado.Net\ConsoleApp\obj\Debug\net10.0\ConsoleApp.pdb

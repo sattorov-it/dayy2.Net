@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "CcySOKVa0jU=",
+  "dgSpecHash": "P/Fjmig0Bqs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vali\\Desktop\\Ado.Net\\day2Ado.Net\\ConsoleApp\\ConsoleApp.csproj",
+  "projectFilePath": "C:\\Users\\Vali\\Desktop\\PROJECT\\BookNest.Net\\ConsoleApp\\ConsoleApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Vali\\.nuget\\packages\\dapper\\2.1.89\\dapper.2.1.89.nupkg.sha512",
     "C:\\Users\\Vali\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
     "C:\\Users\\Vali\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.0\\microsoft.extensions.logging.abstractions.10.0.0.nupkg.sha512",
     "C:\\Users\\Vali\\.nuget\\packages\\npgsql\\10.0.3\\npgsql.10.0.3.nupkg.sha512"

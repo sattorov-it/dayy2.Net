@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vali\\Desktop\\Ado.Net\\day2Ado.Net\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Users\\Vali\\Desktop\\PROJECT\\BookNest.Net\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vali\\Desktop\\Ado.Net\\day2Ado.Net\\Domain\\Domain.csproj": {
+    "C:\\Users\\Vali\\Desktop\\PROJECT\\BookNest.Net\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vali\\Desktop\\Ado.Net\\day2Ado.Net\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Vali\\Desktop\\PROJECT\\BookNest.Net\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Vali\\Desktop\\Ado.Net\\day2Ado.Net\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Vali\\Desktop\\PROJECT\\BookNest.Net\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Vali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vali\\Desktop\\Ado.Net\\day2Ado.Net\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Vali\\Desktop\\PROJECT\\BookNest.Net\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vali\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -339,14 +339,14 @@
         }
       }
     },
-    "C:\\Users\\Vali\\Desktop\\Ado.Net\\day2Ado.Net\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\Vali\\Desktop\\PROJECT\\BookNest.Net\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vali\\Desktop\\Ado.Net\\day2Ado.Net\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Vali\\Desktop\\PROJECT\\BookNest.Net\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\Vali\\Desktop\\Ado.Net\\day2Ado.Net\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Vali\\Desktop\\PROJECT\\BookNest.Net\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Vali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vali\\Desktop\\Ado.Net\\day2Ado.Net\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Vali\\Desktop\\PROJECT\\BookNest.Net\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vali\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -362,8 +362,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Vali\\Desktop\\Ado.Net\\day2Ado.Net\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Vali\\Desktop\\Ado.Net\\day2Ado.Net\\Domain\\Domain.csproj"
+              "C:\\Users\\Vali\\Desktop\\PROJECT\\BookNest.Net\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Vali\\Desktop\\PROJECT\\BookNest.Net\\Domain\\Domain.csproj"
               }
             }
           }
@@ -385,6 +385,10 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.89, )"
+            },
             "Npgsql": {
               "target": "Package",
               "version": "[10.0.3, )"
